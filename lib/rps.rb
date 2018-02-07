@@ -3,7 +3,11 @@ class RPS
     @game = game
   end
 
+  puts 'What is your name?'
+  name = gets.chomp
+  puts "Hello #{name}!"
 
+  
   def win(player1, player2)
     if (player1 === "rock") && (player2 === "scissors")
       true
