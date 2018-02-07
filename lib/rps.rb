@@ -17,6 +17,12 @@ class RPS
       false
     elsif (player1 === "paper") && (player2 === "paper")
       nil
+    elsif (player1 === "scissors") && (player2 === "paper")
+      true
+    elsif (player1 === "scissors") && (player2 === "rock")
+      false
+    elsif (player1 === "scissors") && (player2 === "scissors")
+      nil
     end
   end
 end
